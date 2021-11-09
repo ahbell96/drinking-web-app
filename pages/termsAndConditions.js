@@ -2,19 +2,18 @@ import React from "react";
 import Head from "next/head";
 import Button from "../components/globals/button";
 
-
 function TermsAndConditions({ posts }) {
   return (
-    <main className='h-screen'>
+    <main className="h-screen">
       <section>
-        <div className='flex justify-center flex-col align-center items-center h-screen'>
+        <div className="flex justify-center flex-col align-center items-center h-screen">
           <p>Must be over 18!</p>
           <p>Be prepared to get very drunk</p>
           <p>
             Have read our <a>terms and conditions</a> here
           </p>
           <div>
-            <Button words='Get Drunk!' link='drink' />
+            <Button words="Get Drunk!" link="drinkGame" />
           </div>
         </div>
       </section>
